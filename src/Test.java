@@ -24,7 +24,7 @@ public class Test {
 		driver.get("http://125.64.36.24:61010/");
 
 		WebElement element = driver.findElement(By.linkText("登录"));
-		element.click();
+		element.click();//
 
 
 	}
